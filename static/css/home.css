@@ -1,0 +1,100 @@
+#navcolor{
+  padding-top: 5px;
+  margin-top: 20px;
+  background-color: #1283e4;
+  color:red;
+}
+#navbar-text{
+    color: white;
+}
+body{
+  background-color: #ffd1b3;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#myBody h1{
+  font-family: 'Lobster', cursive;
+}
+#myBody p{
+  font-family: 'Lobster', cursive;
+}
+#myBody{
+  background-color: #292c2f;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0;
+  border: none;
+  border-top: medium double #333;
+  color: red;
+  text-align: center;
+
+}
+
+#hr {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+#hr:after {
+
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}
+#name{
+  color:white;
+  font-family: 'Lobster', cursive;
+}
+#jumbo{
+  background-color: #cc99ff;
+    height:400px;
+    align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#jumbot{
+  margin-top: 50px;
+  padding-top: 10px;
+  margin-left: 20px;
+  background-color: #292c2f;
+  color:white;
+}
+#navbut{
+  background-color: #d9d9d9;
+}
+#gridcolor{
+  background-color: #292c2f;
+  padding: 10px 10px 10px 10px;
+  width: 600px;
+  height: 500px;
+  margin-top: 100px;
+  color:white;
+  border: none;
+  float:left;
+  font-size: 20px;
+  text-underline-position:auto;
+}
+#gridimage{
+  background-color: #292c2f;
+  width: 600px;
+  height: 495px;
+  float:right;
+}
+#logo{
+  width:200px;
+  height:200px;
+}
+#logo1{
+  width:100px;
+  height:100px;
+}

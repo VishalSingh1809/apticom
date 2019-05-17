@@ -1,0 +1,6 @@
+{% autoescape off %}
+Hi {{ user.username|title }},
+Welcome to Apticom Careers Private Limited.
+Please click on the link to confirm your registration,
+http://{{ domain }}{% url 'activate' uidb64=uid token=token %}
+{% endautoescape %}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <th>name</th>
+        <th>password</th>
+        <th>phonenumber</th>
+      </thead>
+      {%for i in usersignup_list%}
+      <tr>
+        <td>{{i.username}}</td>
+        <td>{{i.password}}</td>
+        <td>{{i.phonenumber}}</td>
+      </tr>
+      {%endfor%}
+    </table>
+
+
+  </body>
+</html>

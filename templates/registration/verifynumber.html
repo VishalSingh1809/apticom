@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+{%extends 'registration/base.html'%}
+{% load staticfiles%}
+{%block base_registration%}
+<form action="/verifynumber/" method="post" name="numberform">
+  <h2>Please verify your mobile number: {{number}}</h2>
+  <input type="text" name="uid" value="{{uid}}"hidden>
+  Enter the OTP:  <input type="text" name="otp" value="">
+  <input type="submit" name="" value="Verify">
+  {%csrf_token%}
+</form>
+{%endblock%}

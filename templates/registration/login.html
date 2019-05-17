@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+{%extends 'registration/base.html'%}
+{% load staticfiles%}
+{%block base_registration%}
+<h1>{{msg}}</h1>
+<div class="container">
+  <div class="jumbotron">
+  <form method="post">
+  <p><label for="id_username">Please Enter Your Username:</label> <input type="text" name="username" autofocus maxlength="254" required id="id_username" /></p>
+  <p><label for="id_password"> Please Enter Your Password:</label> <input type="password" name="password" required id="id_password" /></p>
+  <input type="submit" name="" value="Login" class="btn btn-primary btn-lg">
+  {%csrf_token%}
+</form>
+</div>
+</div>
+{%endblock%}
